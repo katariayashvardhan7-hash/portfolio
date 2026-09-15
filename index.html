@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Atelier V. Marceau — Spatial and structural exploration focused on authentic, raw materials, historic permanence, and enduring craft. Portfolio adaptation for Yashvardhan Kataria.">
+  <meta name="author" content="Atelier V. Marceau / Yashvardhan Kataria">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Harmonizing Form, Earth & Timeless Materiality — Atelier V. Marceau">
+  <meta property="og:description" content="Spatial and structural exploration focused on authentic, raw materials, historic permanence, and enduring craft.">
+  <meta property="og:type" content="website">
+
+  <title>Harmonizing Form, Earth & Timeless Materiality | Atelier V. Marceau</title>
+
+  <!-- Google Fonts: Caacupe One, Cormorant Garamond, Plus Jakarta Sans, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       TOP EDITORIAL NAVIGATION BAR
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#hero" class="brand-mark" aria-label="Atelier V. Marceau Home">
+        <span class="brand-title">Atelier V. Marceau</span>
+        <span class="brand-sub">Spatial Architecture & Monograph</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#works" class="nav-link active">Selected Works</a></li>
+          <li><a href="#philosophy" class="nav-link">Philosophy</a></li>
+          <li><a href="#estate" class="nav-link">Studio & Identity</a></li>
+          <li><a href="#objects" class="nav-link">Publications</a></li>
+          <li><a href="#footer" class="nav-link">Offices</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Commission Pill with Avatar -->
+      <div class="nav-actions">
+        <button class="nav-commission-pill" id="open-commission-btn" aria-label="Contact or Commission Atelier">
+          <span>Contact / Commission</span>
+          <img src="images/portrait.jpg" alt="Architect Portrait" class="nav-avatar-img">
+        </button>
+
+        <button class="nav-mobile-toggle" id="mobile-menu-btn" aria-label="Toggle navigation menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================================
+         HERO / EDITORIAL MASTHEAD
+         ======================================================================== -->
+    <section class="hero-editorial" id="hero">
+      <div class="container">
+        <!-- Eyebrow Tag -->
+        <div class="hero-folio-tag">
+          <span class="eyebrow-tag">Folio 04 / Ed. 24 — Architecture & Spatial Design</span>
+        </div>
+
+        <!-- Headline & Statement Split -->
+        <div class="hero-split-grid">
+          <h1 class="hero-headline">
+            Harmonizing<br>
+            Form, Earth &<br>
+            Timeless<br>
+            Materiality.
+          </h1>
+
+          <p class="hero-statement">
+            Spatial and structural exploration focused on authentic, raw materials and topographic context. Dedicated to an architecture founded on permanence, historic discipline, and enduring craft.
+          </p>
+        </div>
+
+        <!-- 4-Column Metric Strip -->
+        <div class="stat-strip-grid">
+          <div class="stat-strip-cell">
+            <div class="stat-strip-label">Years in Practice</div>
+            <div class="stat-strip-num">14</div>
+            <div class="stat-strip-sub">Monograph & Design Honors</div>
+          </div>
+
+          <div class="stat-strip-cell">
+            <div class="stat-strip-label">Realized Works</div>
+            <div class="stat-strip-num">28</div>
+            <div class="stat-strip-sub">Bespoke Commissions</div>
+          </div>
+
+          <div class="stat-strip-cell">
+            <div class="stat-strip-label">Studio Bases</div>
+            <div class="stat-strip-num">02</div>
+            <div class="stat-strip-sub">Milan & Paris Studios</div>
+          </div>
+
+          <div class="stat-strip-cell">
+            <div class="stat-strip-label">Current Capacity</div>
+            <div class="stat-strip-num">100%</div>
+            <div class="stat-strip-sub">Active Lead Stewardship</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         WORKS SECTION & FILTER BAR
+         ======================================================================== -->
+    <section class="works-section" id="works">
+      <div class="container">
+        <!-- Filter Tabs Bar -->
+        <div class="filter-bar-wrap">
+          <div class="filter-pills" role="tablist" aria-label="Filter works by typology">
+            <button class="filter-pill active" data-filter="all" role="tab" aria-selected="true">All Works (28)</button>
+            <button class="filter-pill" data-filter="residential" role="tab" aria-selected="false">Residential (14)</button>
+            <button class="filter-pill" data-filter="restoration" role="tab" aria-selected="false">Restoration (06)</button>
+            <button class="filter-pill" data-filter="cultural" role="tab" aria-selected="false">Cultural (05)</button>
+            <button class="filter-pill" data-filter="objects" role="tab" aria-selected="false">Objects & Exhibits (03)</button>
+          </div>
+
+          <div class="runtime-badge">
+            Display Runtime: Arch-Rec Ed. 24 / 92 Fld
+          </div>
+        </div>
+
+        <!-- PRIMARY MONOGRAPH SHOWCASE: Palazzo Castiglione -->
+        <article class="primary-feature-card project-item" data-category="restoration">
+          <div class="img-frame">
+            <div class="img-tag-overlay">Milan Archive // Selected Commerce 2024</div>
+            <img src="images/palazzo.jpg" alt="Palazzo Castiglione Restoration vaulted arches interior" loading="lazy">
+          </div>
+
+          <div class="primary-feature-content">
+            <div class="project-category-tag">Historic Adaptive Reuse / Lombardy, Italy — 2024</div>
+            <h2 class="project-title-large">Palazzo Castiglione Restoration</h2>
+            <p class="project-desc-text">
+              Assembling an 18th-century Milanese textile townhouse with tactile contemporary spatial interventions. Historic frescoes were dusted and alongside monolithic travertine baths. Divestments prioritize rustic patina over superficial luxury, confronting modern domestic life with ancient resonance.
+            </p>
+
+            <div class="specs-mini-grid">
+              <div class="spec-mini-item">
+                <div class="spec-k">Core Material</div>
+                <div class="spec-v">Tufa & Travertine</div>
+              </div>
+              <div class="spec-mini-item">
+                <div class="spec-k">Metal Accents</div>
+                <div class="spec-v">Patinated Brass</div>
+              </div>
+              <div class="spec-mini-item">
+                <div class="spec-k">Gross Footprint</div>
+                <div class="spec-v">1,540 m²</div>
+              </div>
+            </div>
+
+            <button class="arrow-link open-monograph-trigger" data-project="palazzo">
+              <span>Examine Spatial Monograph</span>
+              <span class="arrow">→</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- TWO-COLUMN SPLIT WORKS: Maison de Cèdre & Gallery Solarium -->
+        <div class="dual-works-grid">
+          <!-- Card 1: Maison de Cèdre -->
+          <article class="split-work-card project-item" data-category="residential">
+            <div class="img-frame">
+              <div class="img-tag-overlay">Site 4, Normandy Pines / 2022</div>
+              <img src="images/maison.jpg" alt="Maison de Cèdre timber pavilion in misty forest" loading="lazy">
+            </div>
+            <div class="project-category-tag">Minimalist Residential / Private Salon</div>
+            <h3 class="split-work-card project-title-mid">Maison de Cèdre</h3>
+            <p class="project-desc-text">
+              Sunk against 15 ancient cedar groves. Thoughtful timber frame work is juxtaposed against broad volcanic basalt slabs. Rainwater collection pools ring the building perimeter, creating perpetual rippling light throughout the interior living sanctums.
+            </p>
+            <div class="split-work-meta-footer">
+              <span>Site Coordinates: 49.37° N, 0.42° E</span>
+              <span>Total Area: 480 m²</span>
+            </div>
+            <div style="margin-top: 0.75rem;">
+              <button class="arrow-link open-monograph-trigger" data-project="maison">
+                <span>View Study</span>
+                <span class="arrow">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Card 2: Gallery Solarium & Archive -->
+          <article class="split-work-card project-item" data-category="cultural">
+            <div class="img-frame">
+              <div class="img-tag-overlay">Site 08, Basel Downs / 2023</div>
+              <img src="images/gallery.jpg" alt="Gallery Solarium modern art exhibition atrium" loading="lazy">
+            </div>
+            <div class="project-category-tag">Museum & Heritage / Private Foundation</div>
+            <h3 class="split-work-card project-title-mid">Gallery Solarium & Archive</h3>
+            <p class="project-desc-text">
+              A progression spanning undulating topography and panoramic views into deep ancient woodland. Dual-skin curtain glazing captures the gentle morning sun and winter snow, standing as a celebration for both light-filled art exhibition and archival protection.
+            </p>
+            <div class="split-work-meta-footer">
+              <span>Core Wood: White Oak / Nordic Timber</span>
+              <span>Gross Area: 920 m²</span>
+            </div>
+            <div style="margin-top: 0.75rem;">
+              <button class="arrow-link open-monograph-trigger" data-project="gallery">
+                <span>View Study</span>
+                <span class="arrow">→</span>
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <!-- HIGHLIGHT BLOCK: The Bruma Hillside Estate -->
+        <div class="estate-highlight-section project-item" data-category="residential">
+          <div class="estate-card">
+            <div class="estate-content">
+              <div class="eyebrow-tag">Landscape Architecture / Douro Valley, Portugal (2023)</div>
+              <h2 class="estate-title">The Bruma Hillside Estate</h2>
+              <p class="estate-desc">
+                Stepped terraced winery and homestead carved out of vertical schist stone formations. The estate harnesses gravity, cellars, and thermal mass to achieve a passive zero-carbon balance across its expansive footprint.
+              </p>
+
+              <div class="estate-data-grid">
+                <div class="estate-data-item">
+                  <div class="estate-data-k">Elevation</div>
+                  <div class="estate-data-v">410m Above Sea Level</div>
+                </div>
+                <div class="estate-data-item">
+                  <div class="estate-data-k">Solar Offset</div>
+                  <div class="estate-data-v">Passive Geo-Thermal</div>
+                </div>
+                <div class="estate-data-item">
+                  <div class="estate-data-k">Living Wing</div>
+                  <div class="estate-data-v">640 m²</div>
+                </div>
+                <div class="estate-data-item">
+                  <div class="estate-data-k">Landscape</div>
+                  <div class="estate-data-v">Schist & Quercus Terraces</div>
+                </div>
+              </div>
+
+              <div>
+                <button class="btn btn-cream open-monograph-trigger" data-project="bruma">
+                  <span>Full Architectural Study & Specs</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="estate-img-frame">
+              <img src="images/bruma.jpg" alt="The Bruma Hillside Estate terraced architecture at twilight" loading="lazy">
+            </div>
+          </div>
+        </div>
+
+        <!-- ROW OF 3 OBJECT / DETAIL CARDS -->
+        <div class="objects-section project-item" data-category="objects">
+          <div class="objects-grid">
+            <!-- Object 1 -->
+            <div class="object-card">
+              <div class="img-frame">
+                <div class="img-tag-overlay">Objet d'Art N° 07</div>
+                <img src="images/vase.jpg" alt="Vase Amphore en Bronze" loading="lazy">
+              </div>
+              <div class="project-category-tag">Cast Metal Study</div>
+              <h4 class="object-title">Vase Amphore en Bronze</h4>
+              <p class="object-desc">Traditional sand cast bronze with 30-day natural oxidation finish and hand-carved relief iconography.</p>
+            </div>
+
+            <!-- Object 2 -->
+            <div class="object-card">
+              <div class="img-frame">
+                <div class="img-tag-overlay">Salon Seating</div>
+                <img src="images/chair.jpg" alt="Fauteuil Bergère tailored velvet armchair" loading="lazy">
+              </div>
+              <div class="project-category-tag">Bespoke Joinery</div>
+              <h4 class="object-title">Fauteuil Bergère</h4>
+              <p class="object-desc">Oiled Teak, woven canework tailored with deep-pile crimson velvet upholstery for acoustic warmth.</p>
+            </div>
+
+            <!-- Object 3 -->
+            <div class="object-card">
+              <div class="img-frame">
+                <div class="img-tag-overlay">Interior Suite</div>
+                <img src="images/library.jpg" alt="Library Monastica Study vaulted stone room" loading="lazy">
+              </div>
+              <div class="project-category-tag">Historic Spatial Craft</div>
+              <h4 class="object-title">Library Monastica Study</h4>
+              <p class="object-desc">Monastic woodtables and warm globes set under historic ribbed masonry vaults and archival stacks.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ====================================================================
+             THE ATELIER MATERIAL PALETTE
+             ==================================================================== -->
+        <section class="material-palette-section" id="philosophy">
+          <div class="material-header-grid">
+            <h2 class="material-section-title">The Atelier Material Palette</h2>
+            <p class="material-section-subtitle">
+              Architecture begins with geology and craft. Every material speaks of tactile authenticity, quiet luxury, and timeless age.
+            </p>
+          </div>
+
+          <div class="palette-swatches-grid">
+            <!-- Swatch 1 -->
+            <div class="swatch-card" data-swatch="travertine">
+              <div class="swatch-img-wrap">
+                <img src="images/travertine.jpg" alt="Roman Travertine texture" loading="lazy">
+              </div>
+              <div class="swatch-content">
+                <div class="project-category-tag">Sediment Stone</div>
+                <h4 class="swatch-title">Roman Travertine</h4>
+                <p class="swatch-desc">Raw honed Italian stone with porous sediment fossils and thermal durability.</p>
+              </div>
+            </div>
+
+            <!-- Swatch 2 -->
+            <div class="swatch-card" data-swatch="brass">
+              <div class="swatch-img-wrap">
+                <img src="images/brass.jpg" alt="Patinated Brass texture" loading="lazy">
+              </div>
+              <div class="swatch-content">
+                <div class="project-category-tag">Oxidized Metal</div>
+                <h4 class="swatch-title">Patinated Brass</h4>
+                <p class="swatch-desc">Hand-brushed brass with deep bronze tones and organic environmental patina.</p>
+              </div>
+            </div>
+
+            <!-- Swatch 3 -->
+            <div class="swatch-card" data-swatch="yakisugi">
+              <div class="swatch-img-wrap">
+                <img src="images/yakisugi.jpg" alt="Charred Yakisugi wood texture" loading="lazy">
+              </div>
+              <div class="swatch-content">
+                <div class="project-category-tag">Burned Timber</div>
+                <h4 class="swatch-title">Charred Yakisugi</h4>
+                <p class="swatch-desc">Fire-treated Japanese cedar for deep charcoal textures and elemental resilience.</p>
+              </div>
+            </div>
+
+            <!-- Swatch 4 -->
+            <div class="swatch-card" data-swatch="velvet">
+              <div class="swatch-img-wrap">
+                <img src="images/velvet.jpg" alt="Burgundy Velvet texture" loading="lazy">
+              </div>
+              <div class="swatch-content">
+                <div class="project-category-tag">Textile Weave</div>
+                <h4 class="swatch-title">Burgundy Velvet</h4>
+                <p class="swatch-desc">Woven in Lyon, high-density velvet for acoustic absorbing upholstery.</p>
+              </div>
+            </div>
+
+            <!-- Swatch 5 -->
+            <div class="swatch-card" data-swatch="bronze">
+              <div class="swatch-img-wrap">
+                <img src="images/bronze.jpg" alt="Poured Cast Bronze texture" loading="lazy">
+              </div>
+              <div class="swatch-content">
+                <div class="project-category-tag">Poured Alloy</div>
+                <h4 class="swatch-title">Poured Cast Bronze</h4>
+                <p class="swatch-desc">Heavy structural solid castings with hand-chiseled architectural finish.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====================================================================
+             EDITORIAL TESTIMONIAL QUOTE
+             ==================================================================== -->
+        <section class="editorial-quote-section">
+          <div class="quote-box">
+            <div class="quote-mark">“</div>
+            <div class="quote-eyebrow">Critique & Curatorial Discourse // Architectural Review</div>
+            <blockquote class="quote-text">
+              “Atelier V. Marceau produces an architecture of rare gravity and serene stillness. In a world inundated with fleeting digital novelties, their buildings stand as resolute stone-and-brass archives of enduring spatial dignity.”
+            </blockquote>
+            <div class="quote-author">Jean-Christophe de Baudins</div>
+            <div class="quote-author-title">Architectural Historian & Curator of the Académie des Arts</div>
+          </div>
+        </section>
+
+        <!-- ====================================================================
+             COMMISSION A SANCTUARY BANNER
+             ==================================================================== -->
+        <section class="commission-banner-section" id="commission">
+          <div class="commission-card">
+            <div class="commission-content">
+              <span class="eyebrow-tag">Autumn 2026 Engagements Now Open</span>
+              <h2 class="commission-title">Commission a Sanctuary</h2>
+              <p class="commission-desc">
+                The atelier accepts an intentionally restricted cadence of three private residential and cultural commissions annually. For sensitive exploratory discourse with advisory patrons, cultural trusts, and private collectors.
+              </p>
+            </div>
+
+            <div class="commission-actions">
+              <button class="btn btn-cream" id="colloquy-btn">Schedule Private Colloquy</button>
+              <button class="btn btn-outline-dark" id="monograph-request-btn">Request Print Monograph</button>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       EDITORIAL FOOTER
+       ======================================================================== -->
+  <footer class="editorial-footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col-brand">
+          <h3 class="footer-brand-title">Atelier V. Marceau</h3>
+          <p>
+            Spatial monographs, material research, and private residential commissions founded on geological permanence and tactile discipline.
+          </p>
+          <div class="footer-cities">Paris — Milan — Kyoto — Tokyo</div>
+        </div>
+
+        <div class="footer-col-nav">
+          <h4>Archival Inquiries</h4>
+          <ul class="footer-links-list">
+            <li><a href="#works">Press Dossier 2026</a></li>
+            <li><a href="#works">Licensing & Fine Prints</a></li>
+            <li><a href="#works">Monographs (Out of Print)</a></li>
+            <li><a href="#philosophy">Spatial Codes & Acoustics</a></li>
+            <li><a href="#commission">Private Trust Consultations</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col-subscribe">
+          <h4>Gazette & Monographic Dispatch</h4>
+          <p>Receive seasonal private publications, architectural dispatches, and exhibition invitations.</p>
+          <form class="subscribe-form" id="newsletter-form">
+            <input type="email" placeholder="patron@domain.com" required aria-label="Email address for dispatch">
+            <button type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>© 2026 Atelier V. Marceau. All Rights Reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="#hero">Colophon</a>
+          <a href="#works">Architectural Registry</a>
+          <a href="#commission">Patron Discretion</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       INTERACTIVE SPATIAL MONOGRAPH MODAL
+       ======================================================================== -->
+  <div class="modal-overlay" id="monograph-modal" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+    <div class="modal-window">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">×</button>
+      <div id="monograph-modal-body">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       COMMISSION & COLLOQUY MODAL
+       ======================================================================== -->
+  <div class="modal-overlay" id="inquiry-modal" role="dialog" aria-modal="true" aria-labelledby="inquiry-modal-title">
+    <div class="modal-window">
+      <button class="modal-close-btn" id="inquiry-close-btn" aria-label="Close modal">×</button>
+      <div class="project-category-tag">Private Engagement Form</div>
+      <h2 id="inquiry-modal-title" style="font-size: 2.2rem; margin-bottom: 0.5rem;">Schedule Private Colloquy</h2>
+      <p style="margin-bottom: 1.5rem;">Please indicate your spatial program, geographical context, and anticipated timeline.</p>
+      
+      <form id="colloquy-form">
+        <div class="form-group">
+          <label class="form-label" for="patron-name">Patron / Trust Representative</label>
+          <input type="text" id="patron-name" class="form-input" placeholder="Lord / Dr. / Mme. Full Name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="patron-email">Direct Transmission Email</label>
+          <input type="email" id="patron-email" class="form-input" placeholder="patron@estate.org" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="patron-program">Typology & Location</label>
+          <input type="text" id="patron-program" class="form-input" placeholder="e.g. Hillside Sanctuary, Douro Valley or Milan Townhouse" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="patron-notes">Architectural Intent & Material Priorities</label>
+          <textarea id="patron-notes" class="form-textarea" rows="4" placeholder="Briefly describe topography, acoustic ambitions, and preferred geological materials..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-burgundy" style="width: 100%;">
+          <span>Transmit Formal Request</span>
+          <span class="arrow">→</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-notice" id="toast-notice"></div>
+
+  <!-- Scripts -->
+  <script src="js/interactions.js"></script>
+</body>
+</html>
